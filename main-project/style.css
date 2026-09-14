@@ -238,6 +238,11 @@ header h3 {
     color: white;
 
 }
+header h1:hover {
+
+    color: var(--primary-color);
+    
+}
 
 
 /* =========================================================
@@ -291,7 +296,12 @@ nav a:hover {
 
     text-decoration: none;
 
+    transition: background-color 0.2s ease;
+
+    transition-delay: 0.1s;
+
 }
+
 
 
 /* =========================================================
@@ -519,7 +529,7 @@ figure img {
 
     max-width: 600px;
 
-    height: auto;
+    height: 100%;
 
     border-radius: var(--border-radius);
 
@@ -544,6 +554,8 @@ figcaption {
     color: var(--muted-text);
 
     font-size: 0.9rem;
+
+    color:#1d4ed8
 
 }
 
@@ -807,7 +819,7 @@ button {
 
     border: none;
 
-    border-radius: 6px;
+    border-radius: 8px;
 
     background-color: var(--primary-color);
 
@@ -828,9 +840,13 @@ button {
 
 button:hover {
 
-    background-color: var(--primary-dark);
+    /* background-color: var(--primary-dark); */
+
+    background-color: #1d4ed8;
 
     transform: translateY(-2px);
+
+    font-size: 1.01rem;
 
 }
 
